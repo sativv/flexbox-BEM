@@ -1,106 +1,76 @@
 
-
-
-.layout-one {
+.container {
     min-height: 100vh;
+    max-width: 1152px;
+    max-height: 700px;
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     justify-content: center;
-
     background-color: #370617;
+
+    
     
 }
-.box-one {
+
+.ybox {
     width: 468px;
     height: 160px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px;
     border-radius: 8px;
-    display: inline-flex;
-    align-items: flex-end;
     background-color: #F48C06;
 
 }
 
-.box-one__box {
+.box-one {
+    display: inline-flex;
+    align-items: flex-end;
+    
+
+}
+
+.redsquare {
     width: 78px;
     height: 78px;
     background-color: #9D0208;
     border-radius: 4px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .box-two {
-    width: 468px;
-    height: 160px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 8px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: #F48C06;
 
 }
 
-
-.box-two__box {
+.redsquareh {
     width: 78px;
     height: 120px;
     background-color: #9D0208;
-    margin-bottom: 20px;
-    margin-left: 20px;
     border-radius: 4px;
-    margin-top: 20px;
-
+    margin: 20px;
 
 }
 
+
 .box-three{
-    width: 468px;
-    height: 160px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 5px;
     display: inline-flex;
     justify-content: end;
     align-items: center;
-    background-color: #F48C06;
-
-}
-
-.box-three__box {
-    width: 78px;
-    height: 78px;
-    background-color: #9D0208;
-    border-radius: 4px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
 
 }
 
 .box-four{
-    width: 468px;
-    height: 160px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 5px;
     display: inline-flex; 
-    background-color: #F48C06;
+    justify-content: space-between;
 
     }
 
-.box-four__four{
-    width: 78px;
-    height: 78px;
-    background-color: #9D0208;
-    border-radius: 4px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
 
+.box-down {
+    display: flex;
+    align-self: flex-end;
 }
 
-.box-four-
+
+
