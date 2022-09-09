@@ -4,8 +4,9 @@
     max-width: 1152px;
     max-height: 700px;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
+    align-content: center;
     background-color: #370617;
 
     
